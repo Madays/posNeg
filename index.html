@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	    <meta name = "description" content = "Descripcion de la pagina">
+	    <title>Parrot Throuble</title>
+	    <link rel="stylesheet" href="css/bootstrap.min.css">
+	    <link rel="stylesheet" href="css/animate.css">
+	    <link rel="stylesheet" href="css/main.css">
+	    <link rel="shortcut icon" href="favicon.ico">
+	    <script src="main.js"></script>
+    </head>
+    
+    <body class="container">
+      <div class="row text-center">
+       <div class="col-xs-6 col-xs-offset-3">
+        <h1 class="text-center text-primary">posNeg</h1>
+        <p class="text-justify">Dados 2 valores enteros, <b>a</b> y <b>b</b>, retorna 1 si uno es negativo y otro positivo. Excepto si el parámetro <b>negative</b> es true, entonces retorna 1 sólo si ambos son negativos, caso contrario retorna 0.</p>
+        <br>
+        <div class="row">
+            <div class="col-xs-12">
+                <h4 class="text-primary text-center">Ingrese datos</h4>
+                <p class="text-center"><input type="text" id="a" placeholder="Ingrese el entero a" class="form-control"></p>
+                <p class="text-center"><input type="text" id="b" placeholder="Ingrese el entero b" class="form-control"></p>
+                <span class="text-center text-primary">El parámetro negativo es:</span>
+                <select class="form-control" id="estado">
+						<option value="1">True</option>
+						<option value="2">False</option>
+				</select>
+                <br>
+                <button class="btn btn-primary" onclick="posNeg()">Retorna</button>                         
+            </div>            
+        </div>   
+        <br>
+                                     
+        <div id = "resultado" class="text-center text-primary" style="font-size:30px;"></div>
+        <br>  
+        <br>
+        <br>  
+        <br> 
+        <div class="animated bounce infinite">
+            <a href="https://github.com/Madays/posNeg" style="font-size:30px;" target="_blank">Link del repositorio del trabajo</a>
+        </div>         
+       </div>      
+       </div>
+      </div>
+    </body>
+</html>    
