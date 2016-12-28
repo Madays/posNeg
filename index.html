@@ -4,7 +4,7 @@
 	    <meta charset="UTF-8">
 	    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	    <meta name = "description" content = "Descripcion de la pagina">
-	    <title>Parrot Throuble</title>
+	    <title>posNeg</title>
 	    <link rel="stylesheet" href="css/bootstrap.min.css">
 	    <link rel="stylesheet" href="css/animate.css">
 	    <link rel="stylesheet" href="css/main.css">
@@ -18,6 +18,40 @@
         <h1 class="text-center text-primary">posNeg</h1>
         <p class="text-justify">Dados 2 valores enteros, <b>a</b> y <b>b</b>, retorna 1 si uno es negativo y otro positivo. Excepto si el parámetro <b>negative</b> es true, entonces retorna 1 sólo si ambos son negativos, caso contrario retorna 0.</p>
         <br>
+        <h3 class="text-center text-primary">Tabla de resultados</h3>
+        
+        <table style="width:100%" class="table table-striped">
+          <tr>
+            <td><b>A</b></td>
+            <td><b>B</b></td> 
+            <td><b>Negativo</b></td> 
+            <td><b>Retorna</b></td>
+          </tr>
+          <tr>
+            <td>Número positivo</td>
+            <td>Número negativo</td> 
+            <td>Falso</td> 
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Número negativo</td>
+            <td>Número positivo</td> 
+            <td>Falso</td> 
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Número negativo</td>
+            <td>Número negativo</td> 
+            <td>True</td> 
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Caso</td>
+            <td>Contrario</td> 
+            <td></td>
+            <td>0</td>
+          </tr>
+        </table>
         <div class="row">
             <div class="col-xs-12">
                 <h4 class="text-primary text-center">Ingrese datos</h4>
